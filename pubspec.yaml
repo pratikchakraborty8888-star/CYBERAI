@@ -1,0 +1,26 @@
+name: cyber_ai
+description: Cyber - Black Neon Classy AI Voice Assistant for Android.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_generative_ai: ^0.4.6
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.2.0
+  url_launcher: ^6.3.1
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.2
+  webview_flutter: ^4.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
